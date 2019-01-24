@@ -8,14 +8,6 @@ import {
 
 const { getVisibilityFilter } = visibilityFilter.selectors;
 
-const initialState = [
-  {
-    text: "Use Redux",
-    completed: false,
-    id: 0
-  }
-];
-
 const addTodo = (state, action) => [
   ...state,
   {
@@ -53,7 +45,7 @@ const clearCompleted = state => state.filter(todo => todo.completed === false);
 
 const todos = createSlice({
   slice: "todos",
-  initialState,
+  initialState: [],
   reducers: {
     add: addTodo,
     delete: deleteTodo,
