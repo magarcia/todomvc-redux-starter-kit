@@ -1,4 +1,4 @@
-# Redux TodoMVC Example
+# Redux TodoMVC Example using Redux Starter Kit
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
 
