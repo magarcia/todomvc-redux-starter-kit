@@ -3,9 +3,10 @@ import { visibilityFilter } from "../ducks";
 import Link from "../components/Link";
 
 const { setVisibilityFilter } = visibilityFilter.actions;
+const { getVisibilityFilter } = visibilityFilter.selectors;
 
 const mapStateToProps = (state, ownProps) => ({
-  active: ownProps.filter === state.visibilityFilter
+  active: ownProps.filter === getVisibilityFilter(state)
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
