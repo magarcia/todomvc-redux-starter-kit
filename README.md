@@ -1,8 +1,6 @@
 # Redux TodoMVC Example using Redux Starter Kit
 
-This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
-
-Projects built with Create-React-App include support for ES6 syntax, as well as several unofficial / not-yet-final forms of Javascript syntax such as Class Properties and JSX. See the list of [language features and polyfills supported by Create-React-App](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#supported-language-features-and-polyfills) for more information.
+This project is a companion codebase for the post https://magarcia.github.io/2019/01/26/todomvc-redux-starter-kit/. It's a refactor of the TodoMVC Redux example but refactored using [Redux Starter Kit](https://redux-starter-kit.js.org/)
 
 ## Available Scripts
 
